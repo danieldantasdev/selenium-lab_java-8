@@ -68,7 +68,7 @@ public class ProductTest extends BaseTest {
     @Test
     public void TC004_deveFecharATelaDeCadastroDeProdutosAoClicarNoBotaoSair() {
         productPage.clicarBotaoCriar();
-        productPage.clicarBotaoCriar();
+//        productPage.clicarBotaoCriar();
         productPage.clicarBotaoSair();
         productPage.clicarBotaoSair();
         assertFalse(productPage.telaCadastroEstaAberta());
@@ -79,7 +79,7 @@ public class ProductTest extends BaseTest {
      */
     @Test
     public void TC005_deveSairDaMensagemDeErroAoClicarNoIconeX() {
-        productPage.clicarBotaoCriar();
+//        productPage.clicarBotaoCriar();
         productPage.clicarBotaoCriar();
         productPage.clicarBotaoSalvar();
         productPage.fecharMensagemDeErro();
